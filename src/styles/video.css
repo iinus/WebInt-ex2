@@ -1,0 +1,57 @@
+.video-player{
+    display:flex;
+    width:1200px;
+    margin:auto;
+}
+
+p{
+    margin:0;
+    padding:5%;
+    font-size: 16px;
+}
+
+.thumbnail{
+  display:flex;
+}
+
+.thumbnail-info{
+    margin-left:20px;
+}
+
+.thumbnail video{
+  width: 50%;
+  height: 50%;
+}
+
+.video-container{
+  margin-right:40px;
+}
+
+.row-container{
+  display:flex;
+  justify-content: baseline;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+}
+
+button{
+    background:#D0021B;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    font-weight: bold;
+}
+
+input{
+  border:1px solid black;
+  height: 25px;
+  text-align: center;
+}
+
+#video-url{
+    width:60%;
+    height: 25px;
+}

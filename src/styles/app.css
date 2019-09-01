@@ -1,0 +1,34 @@
+#app {
+  
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+#videos-player{
+  display: flex;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+  padding: 10px;
+  background:#D0021B;
+}
+
+#header-heading{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  user-select: none;
+}

@@ -1,32 +1,20 @@
 <template>
 <div id="app">
-  <img alt="Vue logo" src="./assets/logo.png">
-  <!-- use hyphenated names! --> <child :my-message="msg"></child>
+  <div id="header">
+  <h1 id="header-heading"> Welcome to VuePlayer </h1>
+  </div><br><br>
+  <VideoPlayer id="videos-player"/>
 </div>
 </template>
 
 <script>
-import Child from './components/Child.vue';
+import VideoPlayer from './components/VideoPlayer.vue';
+import './styles/app.css'
 
 export default {
   name: 'app',
   components: {
-    Child
-  },
-  // https://vuejs.org/2016/02/06/common-gotchas/#Why-does-data-need-to-be-a-function
-  data: () => ({
-    msg: 'Hello Vue.js!'
-  }),
+    VideoPlayer
+  }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
